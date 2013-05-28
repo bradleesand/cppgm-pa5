@@ -55,7 +55,7 @@ The first line of the per-srcfile section shall be:
 
 where `<srcfilei>` is the name of the infile given on the command-line.
 
-The remainder of each per-srcfile output is the same as PA2 `pptoken`.  This implies each per-srcfile section is terminated with an `eof`, so there will be N `eofs` in total.  (`sof` and `eof` lines are not generated for `#include` files)
+The remainder of each per-srcfile output is the same as PA2 `posttoken`.  This implies each per-srcfile section is terminated with an `eof`, so there will be N `eofs` in total.  (`sof` and `eof` lines are not generated for `#include` files)
 
 ### Example
 
